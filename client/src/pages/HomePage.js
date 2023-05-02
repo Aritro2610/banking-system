@@ -1,6 +1,5 @@
 import React,{useState,useContext} from 'react'
 import { useNavigate } from 'react-router-dom'
-// import "../components/css/HomePage.css"
 import "../components/css/Styles.css"
 
 import Logo from "../components/images/logo.svg"
@@ -26,15 +25,6 @@ const HomePage = () => {
     
   return (
     <>
-        {/* <nav class="nav-bar">
-        <img src={Logo} alt="" />
-        <div class="nav-items">
-            <a href="/">Home</a>
-            <a href="/viewcustomers">Customer</a>
-        </div>
-        <button onClick={()=>handleSubmit()}>Login</button>
-        </nav> */}
-
         <header class="hero-section">
       <div class="hero-text-container">
         <h1
